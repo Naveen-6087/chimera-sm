@@ -1,0 +1,27 @@
+# Zig build artifacts
+.zig-cache/
+zig-cache/
+zig-out/
+build/
+
+# Binary outputs
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test artifacts
+test_chat_history.bin
+alice_history.bin
+bob_history.bin
